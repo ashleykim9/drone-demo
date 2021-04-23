@@ -12,10 +12,10 @@ steps:
     - "go build -o ./myapp"
 
 - name: publish  
-  image: plugins/docker
+  image: plugins/dock
   settings:
     username:
-      from_secret: docker_usernamezzzz
+      from_secret: docker_username
     password:
       from_secret: docker_password
     repo: akim309/demo-repo
