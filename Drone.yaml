@@ -1,4 +1,4 @@
-#Drone config file
+#Drone config file 
 
 kind: pipeline
 type: kubernetes
