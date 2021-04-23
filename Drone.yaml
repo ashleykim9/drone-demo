@@ -1,3 +1,5 @@
+#Drone config file
+
 kind: pipeline
 type: kubernetes
 name: default
